@@ -1,0 +1,11 @@
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.csprojAssemblyReference.cache
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.csproj.CoreCompileInputs.cache
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.AssemblyInfoInputs.cache
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.AssemblyInfo.cs
+\\tsclient\S\,\CS Projects\RPN\bin\Debug\netcoreapp2.1\RPN.deps.json
+\\tsclient\S\,\CS Projects\RPN\bin\Debug\netcoreapp2.1\RPN.runtimeconfig.json
+\\tsclient\S\,\CS Projects\RPN\bin\Debug\netcoreapp2.1\RPN.runtimeconfig.dev.json
+\\tsclient\S\,\CS Projects\RPN\bin\Debug\netcoreapp2.1\RPN.dll
+\\tsclient\S\,\CS Projects\RPN\bin\Debug\netcoreapp2.1\RPN.pdb
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.dll
+\\tsclient\S\,\CS Projects\RPN\obj\Debug\netcoreapp2.1\RPN.pdb
