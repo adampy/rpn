@@ -4,7 +4,7 @@ namespace RPN
 {
     class Stack
     {
-        object[] items = new object[100];
+        object[] items = new object[128];
         int indx = -1;
 
         public void Push(object obj)
@@ -67,11 +67,25 @@ namespace RPN
         }
         static void Main(string[] args)
         {
-            Console.Write("Enter a postfix notation expression: ");
+            int[] arr = { 4, 7, 7, 27, 3, 1, 2, 89, 7, 1 };
+
+            unsafe
+            {
+                fixed (int* pointer = &arr[0])
+                {
+                    Console.WriteLine(*pointer);
+                    int inc = Convert.ToInt32(Console.ReadLine());
+                    int* pointer2 = pointer + inc;
+                    Console.WriteLine(*pointer2);
+                }
+            }
+            
+
+            /*Console.Write("Enter a postfix notation expression: ");
             string input = Console.ReadLine();
             string[] splitted = input.Split(' ');
 
-            Console.WriteLine(ReversePolish(splitted));
+            Console.WriteLine(ReversePolish(splitted));*/
             
         }
     }
